@@ -130,11 +130,13 @@ span{
 }
 
 button{
-    font-weight: bold;
+    text-align: center;
+    font-weight: bolder;
     width: 180px;
     height: 25px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 4px 4px 5px rgb(63, 63, 63);
     font-family: 'Raleway', sans-serif;
+    border: none;
 }
