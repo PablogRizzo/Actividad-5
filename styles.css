@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #262626;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-content{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    height: 300px;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #ffec61, #f321d7);
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #eb0ed3, #6cacf4);
+}
+
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #29f678, #9356f7);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    width: 100%;
+    height: 90%;
+}
+
+.logo1{
+    border-radius: 50%;
+    box-shadow: 4px 4px 5px rgb(63, 63, 63);
+    color: #fff;
+    font-size: 30px;
+    background: linear-gradient(-45deg, #ffec61, #f321d7);
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+}
+
+.logo2{
+    border-radius: 50%;
+    box-shadow: 4px 4px 5px rgb(63, 63, 63);
+    color: #fff;
+    font-size: 30px;
+    background: linear-gradient(-45deg, #eb0ed3, #6cacf4);
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+}
+
+.logo3{
+    border-radius: 50%;
+    box-shadow: 4px 4px 5px rgb(63, 63, 63);
+    color: #fff;
+    font-size: 30px;
+    background: linear-gradient(-45deg, #29f678, #9356f7);
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    width: 40%;
+    height: 20%;
+}
+
+.simbol{
+    font-size: x-large;
+}
+
+.number{
+    display: flex;
+    font-size: 40px;
+}
+
+.checklist{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: smaller;
+}
+
+.cheack fas{
+    font-family: 'Raleway', sans-serif
+}
+
+.btn{
+    width: 180px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(63, 63, 63);
+    font-family: 'Raleway', sans-serif;
+}
